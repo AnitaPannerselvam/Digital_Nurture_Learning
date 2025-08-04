@@ -1,0 +1,40 @@
+/* src/App.css */
+.app-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.app-container.dark {
+  background-color: #222;
+  color: white;
+}
+
+.app-container.light {
+  background-color: white;
+  color: black;
+}
+
+.employee-card {
+  border: 1px solid #aaa;
+  padding: 15px;
+  margin: 10px auto;
+  width: 300px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.btn-light {
+  background-color: white;
+  color: black;
+  border: 1px solid #333;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.btn-dark {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  padding: 8px 12px;
+  cursor: pointer;
+}
